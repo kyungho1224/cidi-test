@@ -1,12 +1,13 @@
 package com.example.cicd.service;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 /**
  * Created by KimKyungHo on 2024-03-04(004)
  */
 
-@RequiredArgsConstructor
+@Service
 public class TestServiceImpl implements TestService {
 
     @Override
